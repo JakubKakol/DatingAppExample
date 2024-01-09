@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { NgxGalleryAnimation, NgxGalleryImage, NgxGalleryOptions } from '@kolkov/ngx-gallery';
 import { Member } from 'src/app/_models/member';
 import { MembersService } from 'src/app/_services/members.service';
+import { TimeagoPipe } from 'ngx-timeago';
 
 @Component({
   selector: 'app-member-detail',
